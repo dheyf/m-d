@@ -1,0 +1,30 @@
+body{
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        hwb(322 79% 1%),
+        #c17294
+        
+    );
+    
+}
+.catalogo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.produto{
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow:0 0 10px gray;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 100px;
+}
